@@ -1,15 +1,15 @@
 
 import './App.css'
 import Resuseable from './components/resuseable'
-import Static from './components/static'
+import Header from './static/header'
 
 
 function App() {
 
   return (
-<div>
-<Resuseable/>
-<Static/>
+<div className=' bg-red-400'>
+< Resuseable/>
+<Header/>
 </div>
   )
 }
